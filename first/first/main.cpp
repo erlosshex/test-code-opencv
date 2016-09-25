@@ -20,6 +20,7 @@ int main(int argc, char **argv)
 
     namedWindow("GRAY_IMAGE",WINDOW_AUTOSIZE);
     imshow("GRAY_IMAGE",gray_image);
+    imwrite("gray_image.jpg",gray_image);
     waitKey(0);
     destroyAllWindows();
 
